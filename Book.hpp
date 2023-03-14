@@ -57,3 +57,17 @@ Default-initializes all private members. Booleans are default-initialized to Fal
         bool digital_;
 
 };
+
+
+int main(){
+
+    Book knife("Cleaning Knives", "Fonzo Marrero", 24, 1);
+    
+
+    cout<<"Title? "<<knife.getTitle()<<endl;
+    cout<<"Author? "<<knife.getAuthor()<<endl;
+    cout<<"Pages? "<<knife.getPageCount()<<endl;
+    cout<<"Digital? "<<knife.isDigital()<<endl;
+
+    return 0;
+}
